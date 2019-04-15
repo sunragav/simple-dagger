@@ -8,10 +8,7 @@ class HiDecorator @Inject constructor(val info: Info){
 }
 
 class Info @Inject constructor(){
-    var text =""
-    init{
-        text="Dummy text"
-    }
+    val text ="Dummy text"
 }
 
 
